@@ -73,11 +73,21 @@ int main(void)
            
            
            
-         cout << "\nTurn the Boat " << Y << " Degrees from North\n\n"; 
+
          cout << "\n\nThe Upper bound is: " << Ubound; 
-         cout << "\n\nThe Lower bound is: " << Lbound; 
-           
-         system("pause"); 
+         cout << "\nThe Lower bound is: " << Lbound;
+         cout << "\nDesired Heading: " <<  Y;
+         cout << "\nWind Direction: " <<  Wind_Dir;
+         
+         if (Ubound >= Wind_Dir && Lbound <= Wind_Dir)
+         {
+              cout << "\n\nTacking Fucntion\n";
+         }
+         
+         if (Ubound < Wind_Dir || Lbound > Wind_Dir)
+         {
+              cout << "\n\nTrimming Fucntion\n";
+         }
            
            
            
