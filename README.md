@@ -14,3 +14,11 @@ Goals we have completed and need to do:
 
 [Yes] Trim Sails Function
 [Yes] Desired Heading
+
+
+_________________________________________________________________
+OUTLINE FOR BACKPLANE!!!!
+
+http://i.imgur.com/Ll4isAs.png
+_________________________________________________________________
+
