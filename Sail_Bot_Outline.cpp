@@ -4,9 +4,9 @@
 *    Assignment:                  Free Lance 
 *    Description:                  
 *                  1. Specifications:  Does the overall Function of Sail Bot 
-*                  2. Input:    GPS Coords 
-*                  3. Output     
-*                  4. Functions:        
+*                  2. Input:      GPS Coords, Wind Vane, Compass
+*                  3. Output      Rudder Servo, Sail Servo
+*                  4. Functions:  Taking Function, To_Polar    
 * 
 ******************************************************************************************/
 //This program converts x,y coordinates to polar coordinates: degrees,radius 
