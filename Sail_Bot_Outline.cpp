@@ -22,7 +22,7 @@
 #define pi 3.14159265359 
 using namespace std; 
   
-void To_Polar(double &X, double &Y); 
+void Cartesian_To_Polar(double &X, double &Y); 
   
 int main(void) 
 { 
@@ -60,7 +60,7 @@ int main(void)
          Y = Des_GPS[1] - Boat_GPS[1]; 
          X = Des_GPS[0] - Boat_GPS[0]; 
            
-         To_Polar(X, Y); //Y = degrees heading (in 360) 
+         Cartesian_To_Polar(X, Y); //Y = degrees heading (in 360) 
            
          Ubound = Y + 45; //Sets upper bound 
          Lbound = Y - 45; //Sets Lower Bound 
