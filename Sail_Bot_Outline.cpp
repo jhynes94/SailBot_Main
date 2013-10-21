@@ -96,7 +96,7 @@ int main(void)
     return(0); 
 } 
   
-void To_Polar(double &X, double &Y) 
+void Cartesian_To_Polar(double &X, double &Y) 
 { 
      double RAD, DEG;  
      RAD = (sqrt(X*X+Y*Y)); 
